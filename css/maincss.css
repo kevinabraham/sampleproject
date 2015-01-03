@@ -1,5 +1,21 @@
 #map-canvas {
-	width: 500px;
-	height: 400px;
-	margin-top: 20px;
+	/*width: 1140px;*/
+	height: 300px;
+	margin: 20px 20px 0px 20px;
+}
+
+@media (min-width: 768px) {
+  #map-canvas {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  #map-canvas {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  #map-canvas {
+    width: 1170px;
+  }
 }
